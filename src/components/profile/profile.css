@@ -1,0 +1,21 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.profile_head img{
+    border-radius:50%;
+    width: 120px;
+}
+.posts {
+
+}
+.post{
+    border: 1px solid #bb0a39;
+    padding: 10px;
+    border-radius:10px;
+}
+.post img{
+    width: 60px;
+    border-radius:50%;
+}
