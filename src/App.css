@@ -29,12 +29,7 @@ body{
     border-radius:50%;
     width: 90px;
 }
-.navbar{
-    grid-area:navbar;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
 .profile{
     grid-area:profile;
 }
