@@ -1,0 +1,16 @@
+.dialogs {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-right: 1px solid #000;
+    padding-right: 5px;
+}
+
+.messages {
+    margin-left: 20px;
+}

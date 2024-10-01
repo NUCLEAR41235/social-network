@@ -1,15 +1,12 @@
 import "./profile.css"
-import avatar from "../../img/avatar.jpg"
 import Posts from "./posts/Posts"
+import ProfileInfo from "./profile_info/profile_info"
 function Profile(props) {
-    return(
-      <div className='profile'>
-        <div className="profile_head">
-          <img src={avatar} alt="" />
-          <p>name</p>
-        </div>
-          <Posts/>
-      </div>
-    )
-  }
-  export default Profile
+  return (
+    <div className='profile'>
+      <ProfileInfo name="roger" />
+      <Posts />
+    </div>
+  )
+}
+export default Profile
