@@ -8,6 +8,8 @@ function Post(props) {
             <img src={avatar} alt="" />
             <p>{props.name}</p>
             <p>{props.message}</p>
+            <p>like:<b>{props.like}</b></p>
+
         </div>
     )
 }
