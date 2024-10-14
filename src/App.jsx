@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 import NavBar from './components/navbar/NavBar';
@@ -14,9 +13,9 @@ function App(props) {
         <Header />
         <NavBar />
         <Routes>
-          <Route path='/' element={<Profile posts_data={props.posts_data} profile_name={props.profile_name} />} />
-          <Route path='/profile' element={<Profile posts_data={props.posts_data} profile_name={props.profile_name} />} />
-          <Route path='/dialogs/*' element={<Dialogs dialog_data={props.dialog_data} message_data={props.message_data} />} />
+          <Route path='/' element={<Profile profile_page={props.state.profile_page} />} />
+          <Route path='/profile' element={<Profile profile_page={props.state.profile_page} />} />
+          <Route path='/dialogs/*' element={<Dialogs dialog_page={props.state.dialog_page} />} />
         </Routes>
       </BrowserRouter>
     </div>
