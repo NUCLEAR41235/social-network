@@ -4,8 +4,8 @@ import ProfileInfo from "./profile_info/profile_info"
 function Profile(props) {
   return (
     <div className='profile'>
-      <ProfileInfo name={props.profile_name} />
-      <Posts posts_data={props.posts_data} />
+      <ProfileInfo name={props.profile_page.profile_name} />
+      <Posts posts_data={props.profile_page.posts_data} />
     </div>
   )
 }
