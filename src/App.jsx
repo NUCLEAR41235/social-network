@@ -13,8 +13,8 @@ function App(props) {
         <Header />
         <NavBar />
         <Routes>
-          <Route path='/' element={<Profile profile_page={props.state.profile_page} />} />
-          <Route path='/profile' element={<Profile profile_page={props.state.profile_page} />} />
+          <Route path='/' element={<Profile profile_page={props.state.profile_page} add_post={props.add_post} />} />
+          <Route path='/profile' element={<Profile profile_page={props.state.profile_page} add_post={props.add_post} />} />
           <Route path='/dialogs/*' element={<Dialogs dialog_page={props.state.dialog_page} />} />
         </Routes>
       </BrowserRouter>

@@ -20,4 +20,15 @@ let state = {
         ]
     }
 }
+export let add_post = (post_text) => {
+    let new_post = {
+        name: "roger",
+        text: post_text,
+        like: 4,
+        id: 4
+    }
+    state.profile_page.posts_data.push(new_post)
+    console.log(state);
+
+}
 export default state
