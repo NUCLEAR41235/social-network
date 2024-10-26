@@ -13,4 +13,22 @@
 
 .messages {
     margin-left: 20px;
+    width: 60%;
+}
+
+.dialogs_form {
+    display: flex;
+    width: 100%;
+
+}
+
+.dialogs_area {
+    width: 80%;
+    resize: none;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.dialogs_button {
+    width: 20%;
 }

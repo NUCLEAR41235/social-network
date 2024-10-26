@@ -7,7 +7,7 @@ function Post(props) {
         <div className="post">
             <img src={avatar} alt="" />
             <p>{props.name}</p>
-            <p>{props.message}</p>
+            <p className="post_text">{props.message}</p>
             <p>like:<b>{props.like}</b></p>
 
         </div>
